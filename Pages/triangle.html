@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/circle">Circle</a></li>
+                <li><a href="/triangle">Triangle</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 style="text-align: center;">Triangle Calculator</h1>
+        <form style="margin: auto; border: 1px solid black; height:max-content; width: 250px; padding: 20px; box-shadow: 2px 5px 10px gray; border-radius: 10px;" action="/triangle" method="post">
+            <div>
+                <label style="font-size: 20px; font-weight: bold;" for="base">Base :</label>
+                <input style="width: 95%; margin-top: 5px; padding: 5px; outline: none; margin-bottom: 10px;" type="text" name="base" id="base" placeholder="Enter your base value ...">
+            </div>
+            <div>
+                <label style="font-size: 20px; font-weight: bold;" for="radius">Height :</label>
+                <input style="width: 95%; margin-top: 5px; padding: 5px; outline: none;" type="text" name="height" id="height" placeholder="Enter your height value ...">
+            </div>
+            <button style="background-color: orange; border: none; padding: 5px 10px; border-radius: 10px; color: white; max-width: fit-content; height: 30px; margin: 10px 90px;"  type="submit">Calculate</button>
+        </form>
+    </main>
+</body>
+</html>
